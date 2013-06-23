@@ -40,7 +40,7 @@ void brush4(float x,float y, float px, float py, float lineWidth) {
   strokeWeight(lineWidth);
   line(px,py,x,y);
   line(px,py,x,y);
-  line(width/2+((width/2)-px),py,width/2+((width/2)-x),y);
+  //line(width/2+((width/2)-px),py,width/2+((width/2)-x),y);
   line(px,height/2+((height/2)-py),x,height/2+((height/2)-y));
   line(width/2+((width/2)-px),height/2+((height/2)-py),width/2+((width/2)-x),height/2+((height/2)-y));
   return;
